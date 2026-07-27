@@ -53,70 +53,31 @@ Running the Application
    - Click "Analyze Emotions" to process the video
 
 
+Troubleshooting
 
-### Adding New Features
-1. Modify the respective model files
-2. Update the main application (`finalapp.py`)
-3. Test with sample data
-4. Update this README
+Common Issues
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Model Loading Errors**
+1. Model Loading Errors
    - Ensure all model files are in correct directories
    - Check file paths in the code
 
-2. **Audio Processing Issues**
+2. Audio Processing Issues
    - Verify video has audio track
    - Check audio format compatibility
 
-3. **Face Detection Issues**
+3. Face Detection Issues
    - Ensure good lighting conditions
    - Check video quality and resolution
 
-4. **Memory Issues**
+4. Memory Issues
    - Reduce video resolution
    - Process shorter video segments
 
-### Error Logs
-- Check console output for detailed error messages
-- Review JSON result files for processing status
 
-## 📝 License
 
+
+License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📞 Support
-
-For issues and questions:
-- Check the troubleshooting section
-- Review the Jupyter notebooks for implementation details
-- Create an issue in the repository
-
-## 🔄 Updates
-
-### Version History
-- **v1.0**: Initial release with three emotion recognition models
-- **v1.1**: Added Streamlit interface and result storage
-- **v1.2**: Improved error handling and performance optimization
-
-### Planned Features
-- Real-time emotion detection
-- Webcam integration
-- Advanced analytics dashboard
-- Multi-language support
-- API endpoints for integration
-
----
-
-**Note**: This system is designed for research and development purposes. Ensure compliance with privacy laws and ethical guidelines when using with real data. 
+Note: This system is designed for research and development purposes. Ensure compliance with privacy laws and ethical guidelines when using with real data. Also, just DM me on linkedin in case of any issues :)

@@ -1,17 +1,8 @@
-# Emotion Recognition System
+# Task Optimizer & Priority Scheduler (AI-Powered)
 
-A comprehensive multi-modal emotion recognition system that analyzes emotions from text, speech, and facial expressions using three different AI models.
+A comprehensive multi-modal emotion recognition system that analyzes emotions from text, speech, and facial expressions using three different AI models. The project aims to automate task prioritization based on detected emotions, deadline urgency, workload complexity.
 
-## 🎯 Overview
-
-This system processes video files and extracts emotions through three different modalities:
-1. **Text Analysis** - Transcribes speech and analyzes emotional content
-2. **Speech Analysis** - Analyzes audio features for emotion detection
-3. **Facial Expression Analysis** - Detects emotions from facial expressions
-
-## 🏗️ Architecture
-
-### 1. Text Emotion Model (`text_emotion/`)
+# 1. Text Emotion Model (`text_emotion/`)
 - **Model Type**: Machine Learning Pipeline
 - **Architecture**: 
   - Feature Extraction: CountVectorizer
@@ -20,24 +11,15 @@ This system processes video files and extracts emotions through three different 
 - **File**: `text_emo_model.pkl` (1.9MB)
 - **Purpose**: Analyzes transcribed text to detect emotions
 
-### 2. Speech Emotion Model (`speech_emotion/`)
+# 2. Speech Emotion Model (`speech_emotion/`)
 - **Model Type**: Deep Learning Neural Network (Keras/TensorFlow)
 - **Architecture**: LSTM-based Sequential Model
-  ```
-  Input: MFCC features (40,1)
-  ├── LSTM(256)
-  ├── Dropout(0.2)
-  ├── Dense(128, activation='relu')
-  ├── Dropout(0.2)
-  ├── Dense(64, activation='relu')
-  ├── Dropout(0.2)
-  └── Dense(7, activation='softmax')  # 7 emotion classes
-  ```
+
 - **File**: `my_model.keras` (3.5MB)
 - **Feature Extraction**: MFCC (Mel-frequency cepstral coefficients)
 - **Purpose**: Analyzes audio features for emotion detection
 
-### 3. Face Emotion Model (`faceemotion/`)
+# 3. Face Emotion Model (`faceemotion/`)
 - **Model Type**: Pre-trained Deep Learning Model
 - **Architecture**:
   - Face Detection: Haar Cascade Classifier
@@ -45,32 +27,7 @@ This system processes video files and extracts emotions through three different 
 - **Implementation**: Uses `DeepFace.analyze()` with emotion detection
 - **Purpose**: Analyzes facial expressions in video frames
 
-## 📁 Project Structure
 
-```
-zidio-task-optimizer/
-├── README.md                           # This file
-├── finalapp.py                         # Main Streamlit application
-├── tasks.json                          # Task configuration
-├── automated_message.json              # Automated messaging config
-├── all_emotion_results(face).json      # Face emotion results database
-├── all_emotion_results(speech).json    # Speech emotion results database
-├── all_emotion_results(text).json      # Text emotion results database
-├── text_emotion/                       # Text emotion analysis module
-│   ├── text_emotion.ipynb              # Model training notebook
-│   ├── text_recog.py                   # Text recognition script
-│   ├── text_emo_model.pkl              # Trained text model
-│   └── emotion_dataset_raw.csv         # Training dataset
-├── speech_emotion/                     # Speech emotion analysis module
-│   ├── test.ipynb                      # Model training notebook
-│   ├── speech__recog.py                # Speech recognition script
-│   ├── my_model.keras                  # Trained speech model
-│   ├── encoder.pkl                     # Label encoder
-│   └── TESS Toronto emotional speech set data/  # Training dataset
-└── faceemotion/                        # Face emotion analysis module
-    ├── face_emotion.ipynb              # Model training notebook
-    └── face_emotion.py                 # Face emotion script
-```
 
 ## 🚀 Installation
 

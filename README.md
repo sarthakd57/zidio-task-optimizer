@@ -51,8 +51,9 @@ Running the Application
 2. Access the application
    - Open your browser and go to `http://localhost:8501`
    - Upload a video file containing speech and facial expressions
-   - Enter an employee ID for tracking
-   - Click "Analyze Emotions" to process the video
+   - Enter an employee ID for tracking. Credentials for both employee and manager logins have been hardcoded inside finalapp.py
+   - Click "Analyze Emotions" to process the video and use other functionalities (employee login)
+   - In manager login we can create new tasks, rate them and keep track of employee emotional states.
 
 
 

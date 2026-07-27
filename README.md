@@ -30,7 +30,7 @@ Setup Instructions
 
 If requirements.txt doesn't exist, install these packages:
    ```bash
-   pip install streamlit opencv-python deepface tensorflow keras librosa scikit-learn joblib pandas numpy seaborn neattext speech_recognition pydub moviepy
+   pip install streamlit opencv-python deepface tensorflow keras librosa scikit-learn joblib pandas numpy seaborn neattext SpeechRecognition pydub moviepy
    ```
 
 4. Download additional dependencies

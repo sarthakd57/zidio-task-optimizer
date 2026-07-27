@@ -2,13 +2,10 @@
 
 A comprehensive multi-modal emotion recognition system that analyzes emotions from text, speech, and facial expressions using three different AI models. The project aims to automate task prioritization based on detected emotions, deadline urgency, workload complexity. As a discliamer, some dummy data and hard coded credentials are present.
 
+<img width="1163" height="393" alt="Screenshot from 2026-07-27 11-32-20" src="https://github.com/user-attachments/assets/4b3d7e79-1886-4b65-b1af-49707cf32af6" />
 <img width="630" height="628" alt="Screenshot from 2026-07-27 12-15-01" src="https://github.com/user-attachments/assets/677c8b29-3c0e-4e19-ab21-73bfab35c8e7" />
 <img width="1006" height="625" alt="Screenshot from 2026-07-27 12-08-46" src="https://github.com/user-attachments/assets/30ea93a3-5527-48be-a23d-bd100c475be1" />
 <img width="1165" height="643" alt="Screenshot from 2026-07-27 12-06-39" src="https://github.com/user-attachments/assets/c0d01bbc-a11f-4590-8f19-a44cf0859f77" />
-<img width="1163" height="393" alt="Screenshot from 2026-07-27 11-32-20" src="https://github.com/user-attachments/assets/4b3d7e79-1886-4b65-b1af-49707cf32af6" />
-
-
-
 
 <ins>Installation<ins>
 

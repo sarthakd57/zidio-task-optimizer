@@ -79,12 +79,6 @@ Common Issues:
 
 
 
-<ins>License<ins>
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-
 <ins>Note<ins>
 
 This system is designed for research and development purposes. Ensure compliance with privacy laws and ethical guidelines when using with real data. Also, just DM me on linkedin in case of any issues :)

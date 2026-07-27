@@ -3,13 +3,10 @@
 A comprehensive multi-modal emotion recognition system that analyzes emotions from text, speech, and facial expressions using three different AI models. The project aims to automate task prioritization based on detected emotions, deadline urgency, workload complexity.
 
 
+
 <ins>Installation<ins>
 
-Prerequisites:
-
-Python 3.8+
-
-pip package manager
+Prerequisites: Python 3.8+, pip package manager
 
 
 Setup Instructions
@@ -39,6 +36,7 @@ If requirements.txt doesn't exist, install these packages:
 4. Download additional dependencies
    - The system will automatically download required model files on first run
    - Ensure internet connection for initial setup
+
 
 
 <ins>Usage<ins>
@@ -80,9 +78,13 @@ Common Issues:
    - Process shorter video segments
 
 
+
 <ins>License<ins>
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-Note: This system is designed for research and development purposes. Ensure compliance with privacy laws and ethical guidelines when using with real data. Also, just DM me on linkedin in case of any issues :)
+
+<ins>Note<ins>
+
+This system is designed for research and development purposes. Ensure compliance with privacy laws and ethical guidelines when using with real data. Also, just DM me on linkedin in case of any issues :)
